@@ -1,5 +1,5 @@
 {
-  "author": "Brian Kirchoff <briankircho@gmail.com>",
+  "author": "Linh Le <ninjavungve@gmail.com>",
   "contributors": [
     "Lourenzo Ferreira <lourenzo@gmail.com> (http://lourenzo.blog.br)",
     "Franck Tab <franck.tab@gmail.com>",
@@ -8,26 +8,26 @@
     "Jake Dempsey <angelo0000@gmail.com>",
     "Alban Escalier (DaWyz)"
   ],
-  "name": "mongoose-path-tree",
+  "name": "mongoose-data-tree",
   "description": "Maintaied version of materialized path hierarchy for mongoose with reparent option",
-  "homepage": "https://github.com/swayf/mongoose-path-tree",
+  "homepage": "https://github.com/ninjavungve/mongoose-data-tree",
   "repository": {
     "type": "git",
-    "url": "git://github.com/swayf/mongoose-path-tree.git"
+    "url": "git://github.com/ninjavungve/mongoose-data-tree.git"
   },
   "main": "index.js",
-  "version": "1.3.5",
+  "version": "2.0.0",
   "engine": "node >= 0.8.0",
   "dependencies": {
-    "mongoose": "3.8.x",
-    "stream-worker": "0.x.x"
+    "mongoose": "^4.10.x",
+    "stream-worker": "^2.0.x"
   },
   "devDependencies": {
-    "async": "0.x.x",
-    "should": "1.x.x",
-    "lodash": "2.x.x",
-    "mocha": "1.x.x",
-    "shortid": "2.0.0"
+    "async": "^2.4.x",
+    "lodash": "^4.17.x",
+    "mocha": "^3.4.x",
+    "shortid": "^2.2.x",
+    "should": "^11.2.x"
   },
   "directories": {
     "test": "test"
