@@ -1,6 +1,5 @@
 ## mongoose-data-tree
 This project only upgrade dependecies package modules - fix issue Error: Cannot find module '../build/Release/bson'
-[![Build Status](https://travis-ci.org/swayf/mongoose-path-tree.png)](https://travis-ci.org/swayf/mongoose-path-tree)
 
 ## mongoose-path-tree infomation
 Implements the materialized path strategy with cascade child re-parenting on delete for storing a hierarchy of documents with mongoose
@@ -10,7 +9,7 @@ Version with all collected features and fixes from mongoose-tree, mongoose-tree-
 
 Install via NPM
 
-    $ npm install mongoose-path-tree
+    $ npm install mongoose-data-tree
 
 ## Options
 
@@ -26,7 +25,7 @@ Model.plugin(tree, {
 Then you can use the plugin on your schemas
 
 ```javascript
-var tree = require('mongoose-path-tree');
+var tree = require('mongoose-data-tree');
 
 var UserSchema = new Schema({
   name : String
