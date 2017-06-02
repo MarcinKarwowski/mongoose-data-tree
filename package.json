@@ -16,11 +16,11 @@
     "url": "git://github.com/ninjavungve/mongoose-data-tree.git"
   },
   "main": "index.js",
-  "version": "2.0.2",
+  "version": "2.0.3",
   "engine": "node >= 0.8.0",
   "dependencies": {
     "mongoose": "^4.10.x",
-    "stream-worker": "^2.0.x"
+    "stream-worker": "0.x.x"
   },
   "devDependencies": {
     "async": "^2.4.x",
